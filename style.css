@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+/* Header */
+header {
+    background-color: #1e90ff;
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header h1 {
+  margin-bottom: 6px;   /* reduce space below "Travel Guide" */
+}
+header p {
+  margin-top: 0;        /* remove extra space above subtitle */
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #1e90ff;
+}
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero .img{
+      width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Content */
+.container {
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+  width: 260px;
+  height: 380px;          /* same card height */
+  border-radius: 14px;
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #fff;
+}
+.img-box {
+  width: 100%;
+  height: 220px;          /* SAME image area for all */
+  object-fit: cover;     /* fills perfectly, looks good */
+  border-radius: 12px;
+  display: block;
+}
+.card h3 {
+  margin: 10px 0 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card p {
+  padding: 0 10px 15px;
+  font-size: 14px;
+  color: #666;
+  font-family: cursive;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
